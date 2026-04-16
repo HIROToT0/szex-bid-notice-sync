@@ -129,13 +129,14 @@ openclaw cron add \
 
 **列表 API**：`POST https://www.szexgrp.com/cms/api/v1/trade/content/page`
 
-关键筛选字段：
-- `jygg_gglxmc_rank1` — 公告类型（招标公告、资审公示…）
-- `jygg_gglx` — 公告子类型
+关键筛选字段（两个字段组合过滤才能精准匹配招标公告类型）：
+- `jygg_gglx` — 公告类型（值为 `招标公告` 时仅返回真正的招标公告，过滤掉答疑/补遗/截标信息）
 - `jygg_gclx` — 工程类型（施工、监理、设计、勘察、货物、咨询、其他）
 - `releaseTimeBegin / releaseTimeEnd` — 发布时间范围
 - `modelId: 1378` — 建设工程 modelId
 - `channelId: 2851` — 建设工程 channelId
+
+> ⚠️ 经验证：`jygg_gglx=招标公告 + jygg_gclx=其他` 可精准返回近7天内的"工程类型=其他"的招标公告（而非答疑变更），共6条左右。
 
 **详情 API**：`GET https://www.szexgrp.com/cms/api/v1/trade/content/detail?contentId={id}&channelId=2851`
 

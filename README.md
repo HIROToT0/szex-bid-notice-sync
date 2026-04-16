@@ -171,4 +171,4 @@ POST https://www.szexgrp.com/cms/api/v1/trade/content/page
 }
 ```
 
-工程类型（jygg_gclx）可选值：`施工`、`监理`、`勘察`、`设计`、`可研`、`货物`、`物业`、`其他`
+筛选条件（jygg_gclx）可选值：`施工`、`监理`、`勘察`、`设计`、`可研`、`货物`、`物业`、`其他`

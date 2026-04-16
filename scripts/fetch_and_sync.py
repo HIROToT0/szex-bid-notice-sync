@@ -235,7 +235,8 @@ def main():
         "modelId": 1378,
         "channelId": 2851,
         "fields": [
-            {"fieldName": "jygg_gglxmc_rank1", "fieldValue": "招标公告"},
+            {"fieldName": "jygg_gglx", "fieldValue": "招标公告"},
+            {"fieldName": "jygg_gclx", "fieldValue": "其他"},
         ],
         "releaseTimeBegin": begin_date,
         "releaseTimeEnd": end_date,
