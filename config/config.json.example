@@ -1,0 +1,13 @@
+{
+  "comment": "飞书多维表格配置（抓取脚本使用此配置）",
+  "app_token": "EUv3bCWIMaWUP3sEcEbcgKq8nsg",
+  "table_id": "tbldyqeXNF0py3HN",
+  "comment2": "抓取时间范围（天）",
+  "days": 7,
+  "comment3": "公告类型白名单（空=全部）",
+  "notice_types": ["招标公告"],
+  "comment4": "工程类型白名单（空=全部，常见值：施工、监理、设计、勘察、货物、咨询、其他）",
+  "project_types": ["其他"],
+  "comment5": "是否启用邮件通知",
+  "email_enabled": false
+}
