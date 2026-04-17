@@ -1,0 +1,15 @@
+{
+  "comment": "飞书多维表格配置（抓取脚本使用此配置）",
+  "app_token": "BU1ubWhKRabRmgsdk07c8vJ2nEb",
+  "table_id": "tblz1WXMDlniSWNL",
+  "comment2": "抓取时间范围（天）",
+  "days": 7,
+  "comment3": "标题关键词过滤（标题含这些词则抓取）",
+  "keywords": [
+    "检测",
+    "监测",
+    "鉴定"
+  ],
+  "comment4": "是否启用邮件通知",
+  "email_enabled": false
+}
