@@ -122,7 +122,7 @@ td{{ vertical-align: top; }}
 </table>
 
 <div class="footer">
-<p>本邮件由 <strong>OpenClaw + 深圳交易集团招标公告抓取系统</strong> 自动发送 · <a href="https://ccnlg9zq6b6x.feishu.cn/base/EUv3bCWIMaWUP3sEcEbcgKq8nsg" target="_blank">打开飞书多维表格</a></p>
+<p>本邮件由 <strong>OpenClaw + 深圳交易集团招标公告抓取系统</strong> 自动发送</p>
 <p>⚠️ 投标截止时间标红表示距今不足7天，请及时关注！</p>
 </div>
 </body>
@@ -181,8 +181,8 @@ def main():
 
     # 读取配置
     cfg = load_email_config()
-    app_token = cfg.get("app_token", "EUv3bCWIMaWUP3sEcEbcgKq8nsg")
-    table_id = cfg.get("table_id", "tbldyqeXNF0py3HN")
+    app_token = cfg.get("app_token") or exit_config_error("app_token")
+    table_id = cfg.get("table_id") or exit_config_error("table_id")
     limit = cfg.get("email_record_limit", 10)
 
     token = get_tenant_token(app_id, app_secret)

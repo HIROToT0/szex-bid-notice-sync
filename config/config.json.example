@@ -1,7 +1,7 @@
 {
   "comment": "飞书多维表格配置（抓取脚本使用此配置）",
-  "app_token": "EUv3bCWIMaWUP3sEcEbcgKq8nsg",
-  "table_id": "tbldyqeXNF0py3HN",
+  "app_token": "YOUR_APP_TOKEN",
+  "table_id": "YOUR_TABLE_ID",
   "comment2": "抓取时间范围（天）",
   "days": 7,
   "comment3": "公告类型白名单（空=全部）",

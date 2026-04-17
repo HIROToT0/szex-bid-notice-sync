@@ -187,8 +187,8 @@ def main():
         print(f"⚠️  未找到配置文件，使用默认配置。请创建 {CONFIG_PATH}")
         print(f"    复制 config/config.json.example 为 config/config.json 并填写实际值")
 
-    app_token = cfg.get("app_token") or "EUv3bCWIMaWUP3sEcEbcgKq8nsg"
-    table_id = cfg.get("table_id") or "tbldyqeXNF0py3HN"
+    app_token = cfg.get("app_token") or "YOUR_APP_TOKEN"
+    table_id = cfg.get("table_id") or "YOUR_TABLE_ID"
     days = cfg.get("days", 7)
     project_types = cfg.get("project_types", ["其他"])
 

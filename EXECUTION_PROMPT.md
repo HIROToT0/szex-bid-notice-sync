@@ -24,9 +24,9 @@
 ### 目标多维表格
 | 字段 | 值 |
 |------|-----|
-| App Token | `RG7lbqlijaY5WZs78QpcM6NjnZj` |
-| Table ID | `tblkYHpGG8V6IO2h` |
-| 表格 URL | https://ccnlg9zq6b6x.feishu.cn/base/RG7lbqlijaY5WZs78QpcM6NjnZj |
+| App Token | `YOUR_APP_TOKEN` |
+| Table ID | `YOUR_TABLE_ID` |
+| 表格 URL | https://ccnlg9zq6b6x.feishu.cn/base/YOUR_APP_TOKEN |
 
 ---
 
@@ -128,8 +128,8 @@ python3 /vol2/@apphome/trim.openclaw/data/workspace/skills/szex-bid-notice-sync/
 **配置（config/config.json）：**
 ```json
 {
-  "app_token": "RG7lbqlijaY5WZs78QpcM6NjnZj",
-  "table_id": "tblkYHpGG8V6IO2h",
+  "app_token": "YOUR_APP_TOKEN",
+  "table_id": "YOUR_TABLE_ID",
   "days": 3,
   "keywords": ["检测", "监测", "鉴定"]
 }
