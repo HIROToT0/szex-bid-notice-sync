@@ -1,7 +1,10 @@
-# 配置文件（包含敏感凭证）
+# 敏感配置文件
 config/config.json
 config/email.json
-config/.last_keyword_new.txt
+
+# 示例配置模板（可提交）
+!config/config.json.example
+!config/email.json.example
 
 # Python
 __pycache__/
