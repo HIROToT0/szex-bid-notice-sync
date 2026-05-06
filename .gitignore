@@ -1,0 +1,23 @@
+# 配置文件（包含敏感凭证）
+config/config.json
+config/email.json
+config/.last_keyword_new.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
