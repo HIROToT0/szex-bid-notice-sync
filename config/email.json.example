@@ -1,0 +1,14 @@
+{
+  "comment": "邮件发送配置",
+  "smtp_host": "smtp.qq.com",
+  "smtp_port": 465,
+  "smtp_user": "your_email@qq.com",
+  "smtp_password": "your_smtp授权码",
+  "use_ssl": true,
+  "from_name": "OpenClaw招标公告系统",
+  "to_addresses": ["recipient@example.com"],
+  "subject": "【招标公告】每日更新提醒",
+  "email_record_limit": 10,
+  "comment_smtp": "推荐使用QQ邮箱或企业邮箱，SMTP授权码在邮箱设置中获取",
+  "comment_to": "支持多个收件人，逗号分隔"
+}
